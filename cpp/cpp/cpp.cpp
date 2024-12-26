@@ -6,6 +6,7 @@
 #include "6_directives/directives.h"
 #include "7_pointers/pointers.h"
 #include "8_structs/structs.h"
+#include "9_math_puzzles/math_puzzles.h"
 
 
 int main()
@@ -18,6 +19,7 @@ int main()
     // CallAllFunctions();
     // CallAllPointerFunctions();
     // InitStructs();
+    CallAllMathPuzzles();
     return 0;
     
 }
