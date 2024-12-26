@@ -162,7 +162,6 @@
     <Folder Include="12_sort_algorithms\" />
     <Folder Include="13_data_structs\" />
     <Folder Include="14_multy_threading\" />
-    <Folder Include="4_array\" />
     <Folder Include="5_functions\" />
     <Folder Include="6_directives\" />
     <Folder Include="7_pointers\" />
@@ -174,6 +173,7 @@
     <ClInclude Include="1_variables\variables.h" />
     <ClInclude Include="2_conditions\conditions.h" />
     <ClInclude Include="3_loops\loops.h" />
+    <ClInclude Include="4_array\array.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
