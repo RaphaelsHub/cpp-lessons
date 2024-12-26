@@ -5,6 +5,7 @@
 #include "5_functions/functions.h"
 #include "6_directives/directives.h"
 #include "7_pointers/pointers.h"
+#include "8_structs/structs.h"
 
 
 int main()
@@ -16,6 +17,7 @@ int main()
     // CheckHowDirectivesWork();
     // CallAllFunctions();
     // CallAllPointerFunctions();
+    // InitStructs();
     return 0;
     
 }

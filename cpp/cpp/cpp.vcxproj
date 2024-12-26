@@ -162,7 +162,6 @@
     <Folder Include="12_sort_algorithms\" />
     <Folder Include="13_data_structs\" />
     <Folder Include="14_multy_threading\" />
-    <Folder Include="8_structs\" />
     <Folder Include="9_math_puzzles\" />
     <Folder Include="15_univesity_works\" />
   </ItemGroup>
@@ -174,6 +173,7 @@
     <ClInclude Include="5_functions\functions.h" />
     <ClInclude Include="6_directives\directives.h" />
     <ClInclude Include="7_pointers\pointers.h" />
+    <ClInclude Include="8_structs\structs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
