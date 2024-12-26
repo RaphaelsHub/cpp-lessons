@@ -4,6 +4,7 @@
 #include "4_array/array.h"
 #include "5_functions/functions.h"
 #include "6_directives/directives.h"
+#include "7_pointers/pointers.h"
 
 
 int main()
@@ -13,7 +14,8 @@ int main()
     //CallAllFunctionsLoops();
     // CallAllFunctionsArray();
     // CheckHowDirectivesWork();
-    CallAllFunctions();
+    // CallAllFunctions();
+    // CallAllPointerFunctions();
     return 0;
     
 }
