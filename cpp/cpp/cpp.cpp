@@ -7,6 +7,7 @@
 #include "7_pointers/pointers.h"
 #include "8_structs/structs.h"
 #include "9_math_puzzles/math_puzzles.h"
+#include "10_classes_oop/classes_oop.h"
 
 
 int main()
@@ -19,7 +20,8 @@ int main()
     // CallAllFunctions();
     // CallAllPointerFunctions();
     // InitStructs();
-    CallAllMathPuzzles();
+    // CallAllMathPuzzles();
+    CallAllMethods();
     return 0;
     
 }

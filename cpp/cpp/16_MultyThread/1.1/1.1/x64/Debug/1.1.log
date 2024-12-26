@@ -1,0 +1,2 @@
+﻿ThreadBasic.obj : error LNK2005: main already defined in SendindParametrsTOtHREAD.obj
+D:\Programming\C\MultyThread\1.1\x64\Debug\1.1.exe : fatal error LNK1169: one or more multiply defined symbols found

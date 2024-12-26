@@ -1,0 +1,3 @@
+﻿  FileName.cpp
+D:\Programming\C\MultyThread\classMethods\FileName.cpp(75,6): warning C4101: 'res': unreferenced local variable
+  classMethods.vcxproj -> D:\Programming\C\MultyThread\classMethods\x64\Debug\classMethods.exe
