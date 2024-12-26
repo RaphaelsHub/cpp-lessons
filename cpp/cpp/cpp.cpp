@@ -2,6 +2,7 @@
 #include "2_conditions/conditions.h"
 #include "3_loops/loops.h"
 #include "4_array/array.h"
+#include "6_directives/directives.h"
 
 
 int main()
@@ -9,6 +10,7 @@ int main()
     //CallAllFunctionsVariables();
     //CallAllFunctionsConditions();
     //CallAllFunctionsLoops();
-    CallAllFunctionsArray();
+    // CallAllFunctionsArray();
+    CheckHowDirectivesWork();
     return 0;
 }
