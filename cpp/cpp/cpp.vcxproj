@@ -155,13 +155,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="10_classes_oop\classes_oop.h" />
+    <ClCompile Include="11_files\Files.cpp" />
+    <ClCompile Include="11_files\files\Realisation\Boo.cpp" />
+    <ClCompile Include="11_files\files\Realisation\Foo.cpp" />
+    <ClCompile Include="11_files\files\Realisation\Sum.cpp" />
+    <ClCompile Include="11_files\files\Realisation\SumClass.cpp" />
+    <ClCompile Include="15_univesity_works\O_Propability.cpp" />
     <ClCompile Include="cpp.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="11_files\" />
-    <Folder Include="13_data_structs\" />
     <Folder Include="14_multy_threading\" />
-    <Folder Include="15_univesity_works\" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="10_classes_oop\ConstMethod.h" />
@@ -170,12 +173,38 @@
     <ClInclude Include="10_classes_oop\InseartedClass.h" />
     <ClInclude Include="10_classes_oop\Interface.h" />
     <ClInclude Include="10_classes_oop\NameSpace.h" />
+    <ClInclude Include="11_files\files\Boo.h" />
+    <ClInclude Include="11_files\files\Foo.h" />
+    <ClInclude Include="11_files\files\Sum.h" />
+    <ClInclude Include="11_files\files\SumClass.h" />
+    <ClInclude Include="11_files\files\WorkingWithFiles.h" />
     <ClInclude Include="12_sort_algorithms\1.MergeSort.h" />
     <ClInclude Include="12_sort_algorithms\3.BoobleSort.h" />
     <ClInclude Include="12_sort_algorithms\4.InsertionSort.h" />
     <ClInclude Include="12_sort_algorithms\5.SelectionSort.h" />
     <ClInclude Include="12_sort_algorithms\6.CountingSort.h" />
     <ClInclude Include="12_sort_algorithms\Sorting.h" />
+    <ClInclude Include="13_data_structs\15.IteratrorRiterator.h" />
+    <ClInclude Include="13_data_structs\4.ListBI.h" />
+    <ClInclude Include="13_data_structs\5.Queue.h" />
+    <ClInclude Include="13_data_structs\Deque.h" />
+    <ClInclude Include="13_data_structs\FList.h" />
+    <ClInclude Include="13_data_structs\List.h" />
+    <ClInclude Include="13_data_structs\Map.h" />
+    <ClInclude Include="13_data_structs\Set.h" />
+    <ClInclude Include="13_data_structs\Vector.h" />
+    <ClInclude Include="15_univesity_works\AllOopLabs\1.h" />
+    <ClInclude Include="15_univesity_works\AllOopLabs\10.h" />
+    <ClInclude Include="15_univesity_works\AllOopLabs\11.h" />
+    <ClInclude Include="15_univesity_works\AllOopLabs\12.h" />
+    <ClInclude Include="15_univesity_works\AllOopLabs\2.h" />
+    <ClInclude Include="15_univesity_works\AllOopLabs\3.h" />
+    <ClInclude Include="15_univesity_works\AllOopLabs\4.h" />
+    <ClInclude Include="15_univesity_works\AllOopLabs\5.h" />
+    <ClInclude Include="15_univesity_works\AllOopLabs\6.h" />
+    <ClInclude Include="15_univesity_works\AllOopLabs\7.h" />
+    <ClInclude Include="15_univesity_works\AllOopLabs\8.h" />
+    <ClInclude Include="15_univesity_works\AllOopLabs\9.h" />
     <ClInclude Include="1_variables\variables.h" />
     <ClInclude Include="2_conditions\conditions.h" />
     <ClInclude Include="3_loops\loops.h" />
