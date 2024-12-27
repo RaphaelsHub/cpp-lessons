@@ -11,6 +11,7 @@
 #include "12_sort_algorithms/Sorting.h"
 
 
+
 int main()
 {
     //CallAllFunctionsVariables();
@@ -23,7 +24,7 @@ int main()
     // InitStructs();
     // CallAllMathPuzzles();
     // CallAllMethods();
-    CallAllSortingAlgorithms();
+    //CallAllSortingAlgorithms();
     return 0;
     
 }

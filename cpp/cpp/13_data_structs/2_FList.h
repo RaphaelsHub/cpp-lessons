@@ -434,26 +434,3 @@ public:
 };
 
 
-int main()
-{
-    FList<int> fl1{1, 2, 3, 4, 5};
-    FList<int> fl2(fl1.begin(), fl1.end());
-
-    for (; !fl1.Empty(); fl1.Pop())
-    {
-        std::cout << fl1.Front() << " ";
-    }
-
-    assert(fl1.Empty());
-
-    auto itbegin = fl2.begin();
-    fl2.Insert(itbegin, 0);
-    fl2.Pop();
-    assert(0 == fl2.Front());
-    for (; !fl2.Empty(); fl2.Pop())
-    {
-        std::cout << fl2.Back() << " ";
-    }
-    
-}
-

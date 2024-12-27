@@ -17,7 +17,7 @@ void my_func()
     printf("HelloWorld\n");
 }
 
-int main()
+void Files()
 {
     my_func();
     std::cout << Sum(1,3)<<"\n";
@@ -28,6 +28,4 @@ int main()
     Input10Str();
     Output10Str();
     OverLoadingIOstrem();
-    
-    return 0;
 }

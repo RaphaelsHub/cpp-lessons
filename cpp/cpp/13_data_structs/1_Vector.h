@@ -448,34 +448,3 @@ public:
         }
     }
 };
-
-// int main()
-// {
-//     Vector<int> v{0, 1, 2, 3, 4, 5, 6, 7};
-//
-//     v.Push(8);
-//     v.Push(9);
-//
-//     for (int n : v)
-//         std::cout << n << " ";
-//     std::cout << "\n";
-//
-//     v.Pop();
-//
-//     v.Erase(v.begin());
-//
-//     v.Insert(v.end(), 10);
-//
-//     v.Erase(v.begin() + v.Size() - 1, v.end());
-//
-//     for (auto it = v.begin(); it != v.end();)
-//     {
-//         if (*it % 2)
-//             it = v.Erase(it);
-//         else
-//             ++it;
-//     }
-//
-//     for (int n : v)
-//         std::cout << n << " ";
-// }

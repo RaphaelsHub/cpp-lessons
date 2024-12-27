@@ -503,21 +503,3 @@ public:
             this->table[i] = other.table[i];
     }
 };
-//
-// int main(int argc, char const *argv[])
-// {
-//     UnOrdered_Map<std::string, std::string> u = {
-//         {"RED", "#FF0000"},
-//         {"GREEN", "#00FF00"},
-//         {"BLUE", "#0000FF"}};
-//
-//     for (auto n : u)
-//         std::cout << n.first << ": " << n.second << " ";
-//     std::cout << std::endl;
-//
-//     u["BLACK"] = "#000000";
-//     u["WHITE"] = "#FFFFFF";
-//
-//     for (auto n : u)
-//         std::cout << n.first << ": " << n.second << " ";
-// }

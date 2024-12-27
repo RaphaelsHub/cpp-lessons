@@ -1,8 +1,8 @@
 #pragma once
 
-#include <assert.h>
+#include <cassert>
 #include <sstream>
-#include <string.h>
+#include <cstring>
 
 #include "15.IteratrorRiterator.h"
 

@@ -542,19 +542,3 @@ public:
     ForwardIterator<T> Erase(ForwardIterator<T> position) override { return Vector<T>::Erase(position); }
     BackwardIterator<T> Erase(BackwardIterator<T> position) override { return Vector<T>::Erase(position); }
 };
-// int main(int argc, char const *argv[])
-// {
-//     Deque<int> q;
-//     q.Push_Back(1);
-//     q.Push_Back(2);
-//     q.Push_Back(3);
-//     for (; q.Size(); q.Pop_Front())
-//         std::cout << q.Front() << " ";
-//
-//     Deque<int> s;
-//     s.Push_Front(1);
-//     s.Push_Front(2);
-//     s.Push_Front(3);
-//     for (; s.Size(); s.Pop_Back())
-//         std::cout << s.Back() << " ";
-// }

@@ -32,7 +32,6 @@ public:
     friend istream &operator>>(istream &obj, Point &point);
 };
 
-// для папблик полей
 inline ostream &operator<<(ostream &obj, const Point &point)
 {
     obj << point.x << " " << point.y << " " << point.z << "\n";

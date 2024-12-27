@@ -93,9 +93,8 @@ void D()
     std::cout << "Standard deviation is " << otlonenie << "\n";
 }
 
-int main()
+void Resolve()
 {
     P();
     D();
-    return 0;
 }

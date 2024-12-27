@@ -593,24 +593,3 @@ public:
     static size_t Erase(Abstract<T>& a, const T& value) { return BinaryTree<T>::Erase(a, value); }
     Set(const char* str) : BinaryTree<T>(str) {}
 };
-
-// int main(int argc, char const *argv[])
-// {
-//     Set<int> s1;
-//
-//     s1.Insert(3);
-//     s1.Insert(3);
-//     assert(1 == s1.Count(3));
-//
-//     Set<int> s2 = {1, 2, 3, 4, 1, 2, 3, 4};
-//     assert(4 == s2.Length());
-//
-//     for (auto it = s2.begin(); it != s2.end();)
-//     {
-//         if (*it % 2)
-//             it = s2.Erase(it);
-//         else
-//             ++it;
-//     }
-//     assert(0 == s2.Erase(1));
-// }

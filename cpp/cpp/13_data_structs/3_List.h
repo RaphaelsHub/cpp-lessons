@@ -1,3 +1,5 @@
+#pragma once
+
 #include <iostream>
 #include <cassert>
 #include <sstream>
@@ -5,10 +7,6 @@
 #include <iostream>
 #include <cassert>
 
-#pragma once
-#pragma once
-#include <iostream>
-#include <cassert>
 
 template <typename T>
 struct Node
@@ -510,25 +508,3 @@ public:
         return tmpIter;
     }
 };
-
-
-
-
-
-
-
-
-// int main(int argc, char const *argv[])
-// {
-//     List<int> l = {2, 4, 6, 8};
-//
-//     l.PushFront(1);
-//     l.Push_Back(9);
-//
-//     auto it = std::find(l.begin(), l.end(), 6);
-//     if (it != l.end())
-//         l.Insert(it, 5);
-//
-//     for (int n : l)
-//         std::cout << n << " ";
-// }
